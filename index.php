@@ -15,7 +15,6 @@
 <body onLoad="type_text()" ; bgColor=Black text=#00FFFF>
 <div style="width: 600px;height: 100px;" align="center">
 </div>
-</body>
 <div style="text-align: center;">
 <p id="response"></p>
 <p id="sending"><font color=white>Loading Stats...</p>
@@ -29,7 +28,7 @@
 <button class="button" onclick="spam();">Send Message</button>
     <h6 class="made">Made by <a href="https://github.com/TimsLab">TimsLab</a></h6>
 </div>
-<script>
+<script type="application/javascript">
 document.getElementById("sending").style.visibility = "hidden";
 document.getElementById("response").style.visibility = "hidden";
 
