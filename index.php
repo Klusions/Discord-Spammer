@@ -25,7 +25,6 @@ type_text()" ; bgColor=Black text=#00FFFF>
     <label for="message"></label><input type="message" id="message" placeholder="Message*"><br>
 <button class="button" onclick="spam();">Send Message</button>
     <h6 class="made">Made by <a href="https://github.com/TimsLab">TimsLab</a></h6>
-</div>
 <script type="application/javascript">
 document.getElementById("sending").style.visibility = "hidden";
 document.getElementById("response").style.visibility = "hidden";
@@ -88,4 +87,4 @@ function spam() {
 }
 
 </script>
-	</html>
+</html>
