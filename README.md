@@ -1,27 +1,54 @@
-<div align="center">
-  <br>
-  <img width="210" height="210" alt="Logo" src="https://i.imgur.com/0zjpP0u.png" />
-  <br>
-
-
-  <br>
-   <a href="#" target="_blank">
-<img  height="30" weight="30" src="https://image.spreadshirtmedia.net/image-server/v1/mp/designs/137963376,width=178,height=178/discord-logo.png"/>
-</a>  
- <a href="#" target="_blank">
-<img  height="30" weight="30" src="https://cdn.iconscout.com/icon/free/png-256/youtube-88-227910.png"/>
-</a>
- <a href="#" target="_blank">
-<img  height="30" weight="30" src="http://i.imgur.com/tXSoThF.png"/>
-</a>    
-  <br>
- </div>
-
-![#DA70D6](https://placehold.it/15/48D1CC/000000?text=+) `Released at 20.11.2019`  
+<p align="center">
+    <img width="350" height="350" src="https://timslab.de/timslab.png" alt="TimsLab Round">
+    <br>
+    <br>
+    <br>
+</p>
 
 <p align="center">
-  <img width="977" height="450" src="https://i.imgur.com/CRfNwUn.pngg">
+    <a href="https://github.com/TimsLab">Github</a>&nbsp;&nbsp;&nbsp;
+    <a href="https://twitter.com/TimsLabs">Twitter</a>&nbsp;&nbsp;&nbsp;
+    <a href="https://discordapp.com/users/216297826081046528">Discord</a>&nbsp;&nbsp;&nbsp;
 </p>
+
+<br>
+
+<br>
+
 <p align="center">
-  <img width="977" height="360" src="https://i.imgur.com/eb7U7lS.png">
+  <sub>Built with ❤︎ by <a href="https://twitter.com/TimsLab">TimsLab</a></sub>
 </p>
+<br>
+
+# TimsLab [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
+
+# 📜 Why do you need Discord-Spammer ?
+
+You can flood Discord Servers with this Tool
+
+# 💥 What does it do ?
+
+- [x] Messagespammer
+- [x] Joinspammer
+- [x] Load Tokens
+
+## Example
+```js
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+});
+
+client.on('message', msg => {
+  if (msg.content === 'ping') {
+    msg.reply('Pong!');
+  }
+});
+
+client.login('token');
+        
+}
+```
